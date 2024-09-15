@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+ <head></head> 
+ <body> 
+  <h1> Hello </h1> 
+  <div>
+    This is a html example from Dcoder, 
+   <br> have fun. :) 
+  </div> 
+ 
+
+    <title>Secret Message</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Light background color */
+        }
+        #message {
+            display: none;
+            font-size: 2em; /* Large font size */
+            color: #ff4081; /* Colorful text */
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #ff4081;
+            border-radius: 10px;
+            background-color: #ffffff; /* White background for text */
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #6200ea; /* Button color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #3700b3; /* Button hover color */
+        }
+    </style>
+
+
+    <p id="message">I love you Shehryar</p>
+    <button onclick="revealMessage()">Click me</button>
+
+    <script>
+        function revealMessage() {
+            document.getElementById('message').style.display = 'block';
+        }
+    </script>
+
+</body></html>
+
